@@ -1,3 +1,7 @@
+
+<img width="1920" height="1080" alt="CT3R_wallpaper_1920x1080" src="https://github.com/user-attachments/assets/4d2871a2-acef-4608-9c50-e9e7cfdaaab5" />
+
+
 # Clock Tower 3 Recompiled
 
 **Native PC port of Clock Tower 3 (PS2, USA SLUS-20633) — by ThyHeroOfTime**
