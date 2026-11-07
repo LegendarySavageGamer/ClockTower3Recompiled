@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Releases and update notes
+    url: https://github.com/ThyHeroOfTime/ClockTower3Recompiled/releases
+    about: Check whether your problem is fixed in the latest version first.
