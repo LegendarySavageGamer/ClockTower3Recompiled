@@ -1,0 +1,47 @@
+name: Bug report
+description: Something wrong in the game or the launcher
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping! Please attach **ct3_log.txt** from your install folder
+        (launcher: *About → Open Log Folder*). Do not upload game files or disc images.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Shown in the launcher's About tab (e.g. 1.4.0)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, what you saw instead.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where in the game?
+      description: Room / chapter / cutscene, or "launcher".
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of problem
+      options: [Crash or freeze, Graphics, Sound or music, Controls, Saves, Launcher / install, Performance, Other]
+    validations:
+      required: true
+  - type: input
+    id: pc
+    attributes:
+      label: PC
+      description: Windows version, graphics card, CPU
+  - type: textarea
+    id: log
+    attributes:
+      label: ct3_log.txt
+      description: Drag the file here (or paste its contents).
+    validations:
+      required: true
